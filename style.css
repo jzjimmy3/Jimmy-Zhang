@@ -1,5 +1,8 @@
+
+/* ===== Navigation Bar ===== */
 nav{
     background-color: black;
+    height: 70px;
 }
 .nav-link{
     color: white;
@@ -9,6 +12,10 @@ nav{
     color: blue;
 }
 
+/* ===== Navigation Bar ===== */
+
+/* ===== Hero Section ===== */
+
 #hero{
     background: url(./images/Hero_Image.jpg);
     width: 100%;
@@ -16,3 +23,13 @@ nav{
     background-size: cover;
     position: relative;
 }
+
+/* ===== End Hero Section ===== */
+
+/* ===== About Me Section ===== */
+#about {
+    height: 50vh;
+}
+
+
+/* ===== End About Me Section ===== */
