@@ -1,10 +1,10 @@
 .container-fluid{
     width: 50%;
 }
-#header {
+/* #header {
     border-bottom: 5px solid rgba(255, 255, 255, 0.1);
 
-  }
+  } */
 
 /* ===== Navigation Bar ===== */
 nav{
@@ -64,3 +64,19 @@ section{
     bottom: 0;
     left: 0;
   }
+
+/* ===== Project Sections ===== */
+
+
+#project #project-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
