@@ -39,6 +39,59 @@ nav{
 /* ===== About Me Section ===== */
 
 
+
+/* ===== Skills Section ===== */
+
+
+#skill-1{
+  width: 100%;
+}
+#skill-2{
+  width: 90%;
+}
+#skill-3{
+  width: 50%;
+}
+#skill-4{
+  width: 60%;
+}
+#skill-5{
+  width: 90%;
+}
+#skill-6{
+  width: 90%;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress span {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  color: black;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: rgba(11,12,16,1);
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: rgb(250, 220, 150);
+}
+
 /* ===== Sections General ===== */
 
 section{
