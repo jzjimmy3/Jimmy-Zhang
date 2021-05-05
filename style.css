@@ -95,9 +95,8 @@ nav{
 /* ===== Sections General ===== */
 
 section{
-    padding: 50px 0;
+  padding: 10px;
 }
-
 .section-title{
     color: rgb(250, 220, 150);
     font-weight: bold;    
@@ -108,6 +107,8 @@ section{
 }
 
 .section-title h3::after {
+    display: flex;  
+    align-items: center;
     content: '';
     position: absolute;
     display: block;
@@ -192,4 +193,21 @@ section{
   #project .project-item:hover .project-info {
     opacity: 1;
   }
+
+/* ===== Current Project Section===== */
+
+  .current-project .featured-text {
+    padding: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media (min-width: 992px) {
+    .current-project .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid rgb(250, 220, 150);
+    }
+  }
   
+  .text-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
