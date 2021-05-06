@@ -42,26 +42,6 @@ nav{
 
 /* ===== Skills Section ===== */
 
-
-#skill-1{
-  width: 100%;
-}
-#skill-2{
-  width: 90%;
-}
-#skill-3{
-  width: 50%;
-}
-#skill-4{
-  width: 60%;
-}
-#skill-5{
-  width: 90%;
-}
-#skill-6{
-  width: 90%;
-}
-
 .skills .progress {
   height: 50px;
   display: block;
