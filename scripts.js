@@ -10,6 +10,15 @@
         offset: '75%'
     });
 
+    // Scrolling Header
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#header').addClass('header-scrolling');
+        } else {
+            $('#header').removeClass('header-scrolling');
+        }
+    });
+
 })(jQuery);
 
 

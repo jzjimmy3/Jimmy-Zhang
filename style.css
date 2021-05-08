@@ -6,6 +6,15 @@
 
   } */
 
+  #header.header-transparent {
+    background: transparent;
+  }
+  
+  #header.header-scrolling {
+    height: 60px;
+    background: rgba(11,12,16,0.5);
+  }
+
 /* ===== Navigation Bar ===== */
 
 header {
@@ -32,7 +41,7 @@ nav{
 .nav-link a, .home a {
   display: block;
   position: relative;
-  color: green;
+  color: white;
   transition: 0.3s;
   font-size: 12px;
   text-transform: uppercase;
@@ -44,6 +53,7 @@ nav{
 }
 
 /* ===== Navigation Bar ===== */
+
 
 
 
