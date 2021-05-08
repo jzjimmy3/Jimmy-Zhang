@@ -54,6 +54,30 @@
         $(".sm-nav, .sm-nav-toggle").hide();
     }
 
+    // Active Scrolling
+    var section = $('section');
+    var nav = $('.nav-link, #mobile-nav');
+
+    $(window).on('scroll', function () {
+        var cursor = $(this).scrollTop() + 200;
+
+        section.each(function () {
+            var top = $(this).offset().top,
+                bottom = top + $(this).outerHeight();
+
+            if (cursor >= top && cursor <= bottom) {
+                if (cursor <= bottom) {
+                    nav.find('li').removeClass('active');
+                }
+                nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+            }
+            if (cursor < 300) {
+                $(".nav-link ul:first li:first").addClass('active');
+            }
+        });
+    });
+
+
 })(jQuery);
 
 

@@ -336,7 +336,7 @@ section{
   }
   
   #footer .social-links a:hover {
-    background: #00b371;
+    background: yellow;
     color: #fff;
     text-decoration: none;
   }
